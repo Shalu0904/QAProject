@@ -1,0 +1,30 @@
+[flake8]
+max-line-length = 120
+exclude =
+    .git,
+    .gitignore,
+    *.pot,
+    *.py[co],
+    __pycache__,
+    venv,
+    .env,
+    /migrations/,
+    tests.py,
+    *.js,
+    *.jsx,
+    *.ts,
+    *.tsx,
+    *.css,
+    *.html
+    
+ignore =
+    E203,  
+    E501,  
+    W503, 
+    E722,  
+    F403,  
+    W293, 
+
+per-file-ignores =
+    __init__.py:F401  
+    
